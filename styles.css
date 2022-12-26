@@ -1,0 +1,83 @@
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: rgb(141, 171, 196);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.button-start {
+  width: 85px;
+  padding: 6px 14px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #3d3d3d;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.button-stop {
+  display: none;
+  width: 85px;
+  padding: 6px 14px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #3d3d3d;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.button-reset {
+  display: none;
+  width: 85px;
+  padding: 6px 14px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #3d3d3d;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.button-lap {
+  display: none;
+  width: 85px;
+  padding: 6px 14px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 6px;
+  color: #3d3d3d;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.counter {
+  margin-bottom: 25px;
+  font-size: 25px;
+}
+
+.laps {
+  margin-top: 26px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #3d3d3d;
+}
+
